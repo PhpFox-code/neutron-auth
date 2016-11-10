@@ -8,5 +8,10 @@
             "email": "nam.ngvan@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Phpfox\\Auth\\": "src/"
+        }
+    },
     "require": {}
 }
