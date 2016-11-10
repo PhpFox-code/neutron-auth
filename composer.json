@@ -1,0 +1,12 @@
+{
+    "name": "phpredeye/phpfox-auth",
+    "description": "PhpFox Authentication Component",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nam Nguyen",
+            "email": "nam.ngvan@gmail.com"
+        }
+    ],
+    "require": {}
+}
