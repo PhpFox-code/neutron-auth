@@ -2,6 +2,7 @@
   "name": "codelego/phpfox-auth",
   "description": "PhpFox Authentication Component",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Nam Nguyen",
