@@ -1,6 +1,6 @@
 {
-  "name": "codelego/phpfox-auth",
-  "description": "PhpFox Authentication Component",
+  "name": "codelego/phpfox-authentication",
+  "description": "Authentication library",
   "type": "library",
   "license": "MIT",
   "authors": [
