@@ -1,8 +1,10 @@
 <?php
 
-namespace Phpfox\I18n;
+namespace Phpfox\Auth;
+
 
 return [
-    'aliases'   => [],
-    'factories' => [],
+    'factories' => [
+        'authManager' => AuthManagerFactory::class,
+    ],
 ];
