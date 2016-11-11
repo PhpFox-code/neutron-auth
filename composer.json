@@ -1,6 +1,6 @@
 {
-  "name": "codelego/phpfox-authentication",
-  "description": "Authentication library",
+  "name": "codelego/phpfox-auth-manager",
+  "description": "Authentication manager library for PhpFox framework",
   "type": "library",
   "license": "MIT",
   "authors": [
