@@ -1,1 +1,1 @@
-# phpfox-auth
+# phpfox-auth-manager

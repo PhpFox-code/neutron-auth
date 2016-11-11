@@ -12,8 +12,12 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Phpfox\\Auth\\": "src/"
+      "Phpfox\\AuthManager\\": "src/"
     }
   },
-  "require": {}
+  "autoload-dev": {
+    "psr-4": {
+      "Phpfox\\AuthManager\\": "test/"
+    }
+  }
 }
