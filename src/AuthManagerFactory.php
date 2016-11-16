@@ -1,12 +1,12 @@
 <?php
 
-namespace Phpfox\AuthManager;
+namespace Phpfox\Auth;
 
 
 /**
  * Class AuthManagerFactory
  *
- * @package Phpfox\AuthManager
+ * @package Phpfox\Auth
  */
 class AuthManagerFactory
 {

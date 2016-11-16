@@ -1,11 +1,11 @@
 <?php
 
-namespace Phpfox\AuthManager;
+namespace Phpfox\Auth;
 
 /**
  * Interface StorageInterface
  *
- * @package Phpfox\AuthManager
+ * @package Phpfox\Auth
  */
 interface StorageInterface
 {

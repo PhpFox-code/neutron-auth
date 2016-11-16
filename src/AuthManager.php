@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpfox\AuthManager;
+namespace Phpfox\Auth;
 
 class AuthManager
 {

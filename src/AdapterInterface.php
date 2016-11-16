@@ -1,10 +1,10 @@
 <?php
-namespace Phpfox\AuthManager;
+namespace Phpfox\Auth;
 
 /**
  * Interface AdapterInterface
  *
- * @package Phpfox\AuthManager
+ * @package Phpfox\Auth
  */
 interface AdapterInterface
 {

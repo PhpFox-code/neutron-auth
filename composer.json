@@ -1,5 +1,5 @@
 {
-  "name": "codelego/phpfox-auth-manager",
+  "name": "codelego/phpfox-auth",
   "description": "Authentication manager library for PhpFox framework",
   "type": "library",
   "license": "MIT",
@@ -12,12 +12,12 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Phpfox\\AuthManager\\": "src/"
+      "Phpfox\\Auth\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Phpfox\\AuthManager\\": "test/"
+      "Phpfox\\Auth\\": "test/"
     }
   }
 }
