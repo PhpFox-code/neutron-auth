@@ -4,7 +4,7 @@ namespace Phpfox\Auth;
 
 interface AuthAwareInterface
 {
-    
+
     public function read();
 
 
