@@ -3,11 +3,10 @@
 namespace Phpfox\Auth;
 
 return [
-    'auth_adapters' => [
-        'password' => '',
-        'ticket'   => '',
+    'auth' => [
+        'adapters'=>[],
     ],
-    'services'     => [
+    'services'      => [
         'auth' => AuthManager::class,
     ],
 ];
