@@ -1,34 +1,45 @@
 <?php
-
 namespace Phpfox\Auth;
 
 
 /**
- * Class Result
+ * Describe authenticate result
+ *
+ * Constants:
+ *
+ * - SUCCESS
+ * - MISSING_IDENTITY
+ * - INVALID_IDENTITY
+ * - MISSING_CREDENTIAL
+ * - INVALID_CREDENTIAL
+ * - UN_CATEGORIZE
  *
  * @package Phpfox\AuthManger
  */
 class Result
 {
+
+    const SUCCESS = 1;
+
+    const MISSING_IDENTITY = 2;
+
+    const INVALID_IDENTITY = 3;
+
+    const MISSING_CREDENTIAL = 4;
+
+    const INVALID_CREDENTIAL = 5;
+
+    const UN_CATEGORIZE = 6;
+
     /**
      * @var int
      */
-    private $code = 0;
+    private $code = -1;
 
     /**
      * @var int
      */
     private $identity = 0;
-
-    /**
-     * @var string
-     */
-    private $message = '';
-
-    /**
-     * @var string
-     */
-    private $redirectUrl = '';
 
     /**
      * @return int
@@ -40,10 +51,13 @@ class Result
 
     /**
      * @param int $code
+     *
+     * @return $this
      */
     public function setCode($code)
     {
         $this->code = $code;
+        return $this;
     }
 
     /**
@@ -56,41 +70,11 @@ class Result
 
     /**
      * @param int $identity
+     *
+     * @return $this
      */
     public function setIdentity($identity)
     {
         $this->identity = $identity;
-    }
-
-    /**
-     * @return string
-     */
-    public function getMessage()
-    {
-        return $this->message;
-    }
-
-    /**
-     * @param string $message
-     */
-    public function setMessage($message)
-    {
-        $this->message = $message;
-    }
-
-    /**
-     * @return string
-     */
-    public function getRedirectUrl()
-    {
-        return $this->redirectUrl;
-    }
-
-    /**
-     * @param string $redirectUrl
-     */
-    public function setRedirectUrl($redirectUrl)
-    {
-        $this->redirectUrl = $redirectUrl;
     }
 }

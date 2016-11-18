@@ -4,7 +4,11 @@ namespace Phpfox\Auth;
 
 
 return [
-    'factories' => [
-        'authManager' => AuthManagerFactory::class,
+    'auth_adapters' => [
+        'password' => '',
+        'ticket'   => '',
+    ],
+    'factories'     => [
+        'auth' => AuthManagerFactory::class,
     ],
 ];
