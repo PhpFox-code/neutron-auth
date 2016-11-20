@@ -16,7 +16,7 @@ namespace Phpfox\Auth;
  *
  * @package Phpfox\AuthManger
  */
-class Result
+class AuthResult
 {
 
     const SUCCESS = 1;
@@ -76,5 +76,6 @@ class Result
     public function setIdentity($identity)
     {
         $this->identity = $identity;
+        return $this;
     }
 }

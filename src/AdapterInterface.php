@@ -9,7 +9,7 @@ namespace Phpfox\Auth;
 interface AdapterInterface
 {
     /**
-     * @return Result
+     * @return AuthResult
      */
     public function authenticate();
 }

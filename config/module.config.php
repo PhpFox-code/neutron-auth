@@ -3,12 +3,8 @@
 namespace Phpfox\Auth;
 
 return [
-    'auth'     => [
-        'adapters' => [],
-    ],
+    'auth.adapters' => [],
     'services' => [
-        'map' => [
-            'auth' => [null, AuthManager::class],
-        ],
+        'auth' => [null, AuthManager::class],
     ],
 ];
