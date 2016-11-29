@@ -1,5 +1,5 @@
 {
-  "name": "codelego/phpfox-auth",
+  "name": "codelego/neutron-auth",
   "description": "Authentication manager library for PhpFox framework",
   "type": "library",
   "license": "MIT",
