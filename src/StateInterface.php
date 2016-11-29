@@ -1,11 +1,11 @@
 <?php
 
-namespace Phpfox\Auth;
+namespace Neutron\Auth;
 
 /**
  * Interface StateInterface
  *
- * @package Phpfox\Auth
+ * @package Neutron\Auth
  */
 interface StateInterface
 {

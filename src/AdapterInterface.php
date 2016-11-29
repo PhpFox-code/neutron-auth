@@ -1,10 +1,10 @@
 <?php
-namespace Phpfox\Auth;
+namespace Neutron\Auth;
 
 /**
  * Interface AdapterInterface
  *
- * @package Phpfox\Auth
+ * @package Neutron\Auth
  */
 interface AdapterInterface
 {

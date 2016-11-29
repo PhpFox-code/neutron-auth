@@ -1,5 +1,5 @@
 <?php
-namespace Phpfox\Auth;
+namespace Neutron\Auth;
 
 
 /**
@@ -14,7 +14,7 @@ namespace Phpfox\Auth;
  * - INVALID_CREDENTIAL
  * - UN_CATEGORIZE
  *
- * @package Phpfox\AuthManger
+ * @package Neutron\AuthManger
  */
 class AuthResult
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpfox\Auth;
+namespace Neutron\Auth;
 
-use Phpfox\Log\LogContainerFactory;
+use Neutron\Log\LogContainerFactory;
 
 return [
     'auth.adapters'  => [],
